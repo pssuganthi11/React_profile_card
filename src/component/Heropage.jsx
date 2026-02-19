@@ -1,11 +1,11 @@
 import BadgeItem from "../component/BadgeItem";
 
-function Heropage() {
+function Heropage({Role,setRole}) {
+
   return (
     <div className="  w-full bg-gray-400/15 ">
       <div className="  flex flex-col sm:flex-row   p-4">
-
-      {/* left section */}
+        {/* left section */}
         <div className="  w-full lg:w-2.5/5 flex flex-col justify-center items-center text-center lg:text-left space-y-4 ">
           <img
             src="https://github.com/pssuganthi11.png"
@@ -17,7 +17,7 @@ function Heropage() {
             I'm <span className="text-blue-400">Suganthi Pattappan</span>
           </h1>
 
-          <h2 className="text-2xl text-gray-600">Frontend Developer</h2>
+          <h2 className="text-2xl text-gray-600">{Role} </h2>
         </div>
 
         <div className="w-full lg:w-2.5/5 ">
@@ -32,6 +32,15 @@ function Heropage() {
               optimizing performance, collaborating with cross-functional teams,
               and delivering scalable, user-focused web solutions.
             </p>
+            <div className="flex flex-col w-md">
+              <lable>Enter Role</lable>
+              <input
+                type="text"
+                placeholder="Enter the Role"
+                className="border outline-none p-2 rounded"
+                onChange={(e)=>{setRole(e.target.value)}}
+              ></input>
+            </div>
             <div className=" space-x-2 space-y-2">
               {/* Skills*/}
 
