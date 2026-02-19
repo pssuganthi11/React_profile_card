@@ -2,11 +2,11 @@ import BadgeItem from "../component/BadgeItem";
 
 function Heropage() {
   return (
-    <div className="  w-full ">
-      <div className="bg-gray-400/15  flex flex-col sm:flex-row   p-4">
+    <div className="  w-full bg-gray-400/15 ">
+      <div className="  flex flex-col sm:flex-row   p-4">
 
       {/* left section */}
-        <div className="  w-full lg:w-2/5 flex flex-col justify-center items-center text-center lg:text-left space-y-4 ">
+        <div className="  w-full lg:w-2.5/5 flex flex-col justify-center items-center text-center lg:text-left space-y-4 ">
           <img
             src="https://github.com/pssuganthi11.png"
             alt="profile"
@@ -20,9 +20,9 @@ function Heropage() {
           <h2 className="text-2xl text-gray-600">Frontend Developer</h2>
         </div>
 
-        <div className="w-full lg:w-3/5">
+        <div className="w-full lg:w-2.5/5 ">
           {/* basic details */}
-          <div className="space-y-4">
+          <div className="space-y-4 ">
             <p className=" text-xl sm:text-3xl font-semibold ">Summary</p>
             <p className="text-gray-700 max-w-md">
               Frontend Developer with 2+ years of experience building React and
