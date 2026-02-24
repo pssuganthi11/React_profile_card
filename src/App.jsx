@@ -22,6 +22,13 @@ function App() {
                     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2OsCVq-zhIKHU7kJX5M7vh--5KvIhsDHaQQ&s",
                   price: 250,
                 }}/>
+                <Cart item={{
+                  name: "orange",
+                  image:
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXuh6SspTK58RBS-dGZF0xEkWwL_lF-wcQ6w&s",
+                  price: 50,
+                }}/>
+                
         <Footer/>
       </div>
     </>
